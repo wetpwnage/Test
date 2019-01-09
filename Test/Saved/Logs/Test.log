@@ -1488,3 +1488,801 @@ Script call stack:
 	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
 
 [2019.01.09-05.47.53:990][940]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/WraithPlayerCharacter75745F5A43FF6DC3E6CF438E74CEC7E2.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ParagonWraith/Characters/Heroes/Wraith/WraithPlayerCharacter.uasset'
+[2019.01.09-05.48.59:880][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.48.59:975][273]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-05.49.00:006][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.49.00:006][273]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.09-05.49.00:007][273]LogPlayLevel: [PlayLevel] Compiling Actor_Fire before play...
+[2019.01.09-05.49.00:187][273]LogPlayLevel: PlayLevel: Blueprint regeneration took 180 ms (1 blueprints)
+[2019.01.09-05.49.00:187][273]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:49:00 PM)
+[2019.01.09-05.49.00:187][273]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.49.00:200][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013074s)
+[2019.01.09-05.49.00:201][273]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.49.00:201][273]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2019.01.09-05.49.00:201][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013759s)
+[2019.01.09-05.49.00:362][273]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.49.00:435][273]LogInit: FAudioDevice initialized.
+[2019.01.09-05.49.00:465][273]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.49.00:466][273]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.49.00:467][273]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.49.00
+[2019.01.09-05.49.00:468][273]LogWorld: Bringing up level for play took: 0.002694
+[2019.01.09-05.49.00:481][273]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.067
+[2019.01.09-05.49.00:481][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.49.02:511][426]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.01.09-05.50.13:294][998]LogCharacterMovement: WraithPlayerCharacter_2 is stuck and failed to move! Velocity: X=-332.98 Y=-114.95 Z=0.00 Location: X=-1021.40 Y=888.79 Z=225.88 Normal: X=-0.08 Y=0.77 Z=-0.64 PenetrationDepth:9.438 Actor:FlamingChair_C_187 Component:Collision BoneName:None (0 other events since notify)
+[2019.01.09-05.50.25:985][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.50.25:985][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.50.26:037][962]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.50.26:038][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.50.26:077][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.50.26:196][963]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.01.09-05.50.29:560][227]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.50.30:628][279]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.51.18:299][708]LogSlate: Window 'Source Control Login' being destroyed
+[2019.01.09-05.51.30:717][632]LogEditorViewport: Clicking on Actor (LMB): Actor_Fire_C (Actor_Fire)
+[2019.01.09-05.51.35:008][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.51.35:078][951]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-05.51.35:100][951]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.51.35:100][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-05.51.35:100][951]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:51:35 PM)
+[2019.01.09-05.51.35:101][951]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.51.35:113][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012478s)
+[2019.01.09-05.51.35:114][951]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.51.35:114][951]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2019.01.09-05.51.35:114][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013195s)
+[2019.01.09-05.51.35:236][951]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.51.35:313][951]LogInit: FAudioDevice initialized.
+[2019.01.09-05.51.35:345][951]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.51.35:347][951]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.51.35:347][951]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.51.35
+[2019.01.09-05.51.35:348][951]LogWorld: Bringing up level for play took: 0.002596
+[2019.01.09-05.51.35:361][951]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.814
+[2019.01.09-05.51.35:361][951]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.51.37:220][ 99]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.51.37:221][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.51.37:270][ 99]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.51.37:271][ 99]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.51.37:302][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.51.37:420][100]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.01.09-05.51.39:169][207]LogEditorViewport: Clicking on Actor (LMB): Actor_Fire_C (Actor_Fire)
+[2019.01.09-05.51.39:713][235]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.09-05.51.45:491][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.52.46:063][424]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-05.52.46:080][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.52.46:080][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-05.52.46:080][424]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:52:46 PM)
+[2019.01.09-05.52.46:081][424]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.52.46:095][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014161s)
+[2019.01.09-05.52.46:095][424]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.52.46:096][424]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2019.01.09-05.52.46:096][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015025s)
+[2019.01.09-05.52.46:224][424]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.52.46:297][424]LogInit: FAudioDevice initialized.
+[2019.01.09-05.52.46:329][424]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.52.46:330][424]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.52.46:331][424]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.52.46
+[2019.01.09-05.52.46:332][424]LogWorld: Bringing up level for play took: 0.002789
+[2019.01.09-05.52.46:345][424]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.202
+[2019.01.09-05.52.46:345][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.52.48:406][587]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.01.09-05.52.48:794][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.52.48:794][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.52.48:849][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.52.48:850][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.52.48:883][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.52.48:999][619]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.01.09-05.52.54:299][ 21]LogEditorViewport: Clicking on Actor (LMB): Actor_Fire_C (Actor_Fire)
+[2019.01.09-05.53.01:593][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.53.09:773][983]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-05.53.09:791][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.53.09:791][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-05.53.09:791][983]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:53:09 PM)
+[2019.01.09-05.53.09:791][983]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.53.09:802][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010878s)
+[2019.01.09-05.53.09:802][983]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.53.09:802][983]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2019.01.09-05.53.09:802][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011575s)
+[2019.01.09-05.53.09:925][983]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.53.09:999][983]LogInit: FAudioDevice initialized.
+[2019.01.09-05.53.10:029][983]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.53.10:031][983]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.53.10:031][983]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.53.10
+[2019.01.09-05.53.10:032][983]LogWorld: Bringing up level for play took: 0.002717
+[2019.01.09-05.53.10:045][983]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.503
+[2019.01.09-05.53.10:045][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.53.11:543][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.53.11:543][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.53.11:597][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.53.11:597][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.53.11:631][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.53.11:748][104]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.01.09-05.53.13:410][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.53.17:488][467]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CustomShit/FlamingChair.FlamingChair
+[2019.01.09-05.53.26:609][ 31]BlueprintLog: New page: Compile FlamingChair
+[2019.01.09-05.53.26:801][ 31]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.53.26:802][ 31]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.53.26:803][ 31]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.53.26:809][ 31]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.53.26:810][ 31]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.53.26:811][ 31]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.53.27:362][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/FlamingChair" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset" SILENT=true
+[2019.01.09-05.53.27:400][ 54]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/FlamingChairBEFFEFBE43254E9E6CE9B4B27A098B5F.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset'
+[2019.01.09-05.53.28:311][108]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-05.53.28:330][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.53.28:330][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-05.53.28:330][108]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:53:28 PM)
+[2019.01.09-05.53.28:330][108]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.53.28:342][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011075s)
+[2019.01.09-05.53.28:342][108]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.53.28:342][108]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2019.01.09-05.53.28:342][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011935s)
+[2019.01.09-05.53.28:500][108]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.53.28:579][108]LogInit: FAudioDevice initialized.
+[2019.01.09-05.53.28:612][108]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.53.28:613][108]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.53.28:614][108]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.53.28
+[2019.01.09-05.53.28:615][108]LogWorld: Bringing up level for play took: 0.002918
+[2019.01.09-05.53.28:628][108]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.08
+[2019.01.09-05.53.28:628][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.53.57:653][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.53.57:653][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.53.57:703][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.53.57:703][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.53.57:738][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.53.57:779][556]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.01.09-05.54.18:137][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.54.44:440][293]BlueprintLog: New page: Compile FlamingChair
+[2019.01.09-05.54.44:625][293]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.54.44:626][293]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.54.44:627][293]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.54.44:634][293]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.54.44:635][293]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.54.44:635][293]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.54.45:271][322]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.54.45:291][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/FlamingChair" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset" SILENT=true
+[2019.01.09-05.54.45:322][322]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/FlamingChair5454F1B745159E13169C48992C553627.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset'
+[2019.01.09-05.54.46:305][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.54.50:187][611]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-05.54.50:207][611]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.54.50:207][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-05.54.50:207][611]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:54:50 PM)
+[2019.01.09-05.54.50:207][611]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.54.50:220][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013384s)
+[2019.01.09-05.54.50:221][611]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.54.50:221][611]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2019.01.09-05.54.50:221][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014330s)
+[2019.01.09-05.54.50:352][611]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.54.50:426][611]LogInit: FAudioDevice initialized.
+[2019.01.09-05.54.50:460][611]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.54.50:461][611]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.54.50:462][611]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.54.50
+[2019.01.09-05.54.50:463][611]LogWorld: Bringing up level for play took: 0.002617
+[2019.01.09-05.54.50:476][611]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.071
+[2019.01.09-05.54.50:476][611]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.55.27:969][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.55.27:969][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.55.28:014][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.55.28:015][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.55.28:051][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.55.28:093][743]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.01.09-05.56.00:329][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.56.02:249][227]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.09-05.56.05:406][390]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CustomShit/Ball.Ball
+[2019.01.09-05.56.13:823][834]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.09-05.56.18:522][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.56.36:353][915]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.56.48:855][612]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.56.49:223][612]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/ThirdPersonExampleMap955431624B2F7D68FEED4F80D420DA2D.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.09-05.56.49:454][612]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/ThirdPersonExampleMap_BuiltData4B25F9CF4C937B977BD7FC86A85BCB72.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.09-05.56.51:289][694]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-05.56.51:313][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.56.51:313][694]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.09-05.56.51:314][694]LogPlayLevel: [PlayLevel] Compiling Ball before play...
+[2019.01.09-05.56.51:515][694]LogPlayLevel: PlayLevel: Blueprint regeneration took 202 ms (1 blueprints)
+[2019.01.09-05.56.51:515][694]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:56:51 PM)
+[2019.01.09-05.56.51:515][694]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.56.51:530][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014098s)
+[2019.01.09-05.56.51:530][694]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.56.51:531][694]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2019.01.09-05.56.51:531][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015116s)
+[2019.01.09-05.56.51:678][694]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.56.51:756][694]LogInit: FAudioDevice initialized.
+[2019.01.09-05.56.51:789][694]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.56.51:791][694]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.56.51:792][694]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.56.51
+[2019.01.09-05.56.51:793][694]LogWorld: Bringing up level for play took: 0.003193
+[2019.01.09-05.56.51:806][694]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.258
+[2019.01.09-05.56.51:806][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.56.53:395][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.56.53:395][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.56.53:445][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.56.53:446][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.56.53:488][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.56.53:533][804]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.01.09-05.56.58:822][108]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (RightArm_StaticMesh)
+[2019.01.09-05.56.58:881][108]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.56.59:644][140]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall7)
+[2019.01.09-05.56.59:704][140]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.57.02:923][281]LogEditorViewport: Clicking on Actor (LMB): Ball_C (Ball)
+[2019.01.09-05.57.10:577][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.57.10:639][716]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-05.57.10:661][716]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.57.10:661][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-05.57.10:661][716]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:57:10 PM)
+[2019.01.09-05.57.10:661][716]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.57.10:674][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013134s)
+[2019.01.09-05.57.10:675][716]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.57.10:675][716]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2019.01.09-05.57.10:675][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014159s)
+[2019.01.09-05.57.10:829][716]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.57.10:912][716]LogInit: FAudioDevice initialized.
+[2019.01.09-05.57.10:946][716]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.57.10:948][716]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.57.10:949][716]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.57.10
+[2019.01.09-05.57.10:951][716]LogWorld: Bringing up level for play took: 0.003463
+[2019.01.09-05.57.10:964][716]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.416
+[2019.01.09-05.57.10:964][716]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.57.12:983][860]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.01.09-05.57.17:658][200]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.57.17:659][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.57.17:708][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.57.17:708][200]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.57.17:746][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.57.17:825][201]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.01.09-05.57.19:722][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.57.58:760][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.58.07:917][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.58.08:058][256]LogAssetEditorManager: Opening Asset editor for StaticMesh /Engine/VREditor/BasicMeshes/SM_Ball_01.SM_Ball_01
+[2019.01.09-05.58.08:607][257]LogRenderer: Reallocating scene render targets to support 1912x1284 Format 10 NumSamples 1 (Frame:1).
+[2019.01.09-05.58.20:149][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.58.20:221][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.58.20:244][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/VREditor/BasicMeshes/SM_Ball_01" FILE="../../../Engine/Content/VREditor/BasicMeshes/SM_Ball_01.uasset" SILENT=true
+[2019.01.09-05.58.20:273][873]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/SM_Ball_011CB746C04B5FC3CBCDB62F823A627A6B.tmp' to '../../../Engine/Content/VREditor/BasicMeshes/SM_Ball_01.uasset'
+[2019.01.09-05.58.31:428][550]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.58.42:193][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.58.44:455][182]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.58.47:853][365]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.58.54:881][755]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.58.56:983][858]BlueprintLog: New page: Compile Ball
+[2019.01.09-05.58.57:709][876]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-05.58.57:731][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/Ball" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Ball.uasset" SILENT=true
+[2019.01.09-05.58.57:751][876]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/BallCE2322C84D12B0CB6B2D0089652C1F94.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Ball.uasset'
+[2019.01.09-05.58.59:973][980]LogEditorViewport: Clicking on Actor (LMB): Ball_C (Ball)
+[2019.01.09-05.59.03:098][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.59.17:355][226]LogEditorViewport: Clicking on Actor (LMB): Ball_C (Ball)
+[2019.01.09-05.59.18:951][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.59.19:041][323]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-05.59.19:065][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.19:065][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-05.59.19:065][323]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:59:19 PM)
+[2019.01.09-05.59.19:065][323]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.59.19:079][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013385s)
+[2019.01.09-05.59.19:079][323]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.59.19:080][323]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2019.01.09-05.59.19:080][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014104s)
+[2019.01.09-05.59.19:208][323]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.59.19:283][323]LogInit: FAudioDevice initialized.
+[2019.01.09-05.59.19:313][323]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.59.19:315][323]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.59.19:315][323]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.59.19
+[2019.01.09-05.59.19:316][323]LogWorld: Bringing up level for play took: 0.002751
+[2019.01.09-05.59.19:329][323]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.782
+[2019.01.09-05.59.19:329][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.20:765][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.20:765][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.59.20:809][438]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.59.20:810][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.20:846][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.59.20:895][439]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.01.09-05.59.21:940][509]LogEditorViewport: Clicking on Actor (LMB): Ball_C (Ball)
+[2019.01.09-05.59.27:629][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-05.59.53:501][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.53:501][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-05.59.53:501][335]PIE: New page: SIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:59:53 PM)
+[2019.01.09-05.59.53:501][335]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.59.53:512][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010945s)
+[2019.01.09-05.59.53:512][335]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.59.53:513][335]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2019.01.09-05.59.53:513][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011759s)
+[2019.01.09-05.59.53:645][335]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.59.53:718][335]LogInit: FAudioDevice initialized.
+[2019.01.09-05.59.53:746][335]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.59.53:747][335]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.59.53:748][335]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.59.53
+[2019.01.09-05.59.53:749][335]LogWorld: Bringing up level for play took: 0.002637
+[2019.01.09-05.59.53:762][335]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.214
+[2019.01.09-05.59.53:768][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.54:668][390]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.54:669][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.59.54:721][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.59.54:722][390]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.54:756][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.59.54:806][391]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.01.09-05.59.56:089][468]LogTemp: Repeating last play command: Simulate
+[2019.01.09-05.59.56:107][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.56:107][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-05.59.56:107][468]PIE: New page: SIE session: ThirdPersonExampleMap (Jan 8, 2019, 5:59:56 PM)
+[2019.01.09-05.59.56:107][468]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-05.59.56:118][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010512s)
+[2019.01.09-05.59.56:118][468]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-05.59.56:118][468]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2019.01.09-05.59.56:119][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011193s)
+[2019.01.09-05.59.56:246][468]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-05.59.56:322][468]LogInit: FAudioDevice initialized.
+[2019.01.09-05.59.56:351][468]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-05.59.56:352][468]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-05.59.56:353][468]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.08-23.59.56
+[2019.01.09-05.59.56:354][468]LogWorld: Bringing up level for play took: 0.002781
+[2019.01.09-05.59.56:367][468]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.18
+[2019.01.09-05.59.56:369][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.57:245][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.57:245][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.59.57:290][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-05.59.57:290][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-05.59.57:327][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-05.59.57:379][524]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.01.09-05.59.58:119][573]LogEditorViewport: Clicking on Actor (LMB): Ball_C (Ball)
+[2019.01.09-06.00.00:351][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.00.30:063][327]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.09-06.00.30:140][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.09-06.00.30:212][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.09-06.00.30:281][327]LogSlate: Window 'Ball' being destroyed
+[2019.01.09-06.00.30:284][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.09-06.00.31:025][327]SourceControl: rm 'Test/Content/CustomShit/Ball.uasset'
+[2019.01.09-06.00.33:920][619]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-06.00.34:224][619]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/ThirdPersonExampleMap54B595054CD7B6EDBCD7399E2BF482D6.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.09-06.00.34:657][619]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/ThirdPersonExampleMap_BuiltData312FC1DB46B67492159B1D84F79F7943.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.09-06.00.47:911][466]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.09-06.00.53:649][115]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CustomShit/Chair2.Chair2
+[2019.01.09-06.01.27:962][247]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-06.01.28:062][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/Chair2" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Chair2.uasset" SILENT=true
+[2019.01.09-06.01.28:081][247]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/Chair250B4F0204DBFEF136AC13A9DF953CFFC.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Chair2.uasset'
+[2019.01.09-06.01.30:134][331]BlueprintLog: New page: Compile Chair2
+[2019.01.09-06.01.31:343][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/Chair2" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Chair2.uasset" SILENT=true
+[2019.01.09-06.01.31:372][372]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/Chair29C2369A04BE1FBAAA9D02A8E0EF70F2C.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Chair2.uasset'
+[2019.01.09-06.01.35:237][644]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-06.01.37:435][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.01.40:880][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.01.40:975][986]LogTemp: Repeating last play command: Simulate
+[2019.01.09-06.01.40:997][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.01.40:997][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-06.01.40:997][986]PIE: New page: SIE session: ThirdPersonExampleMap (Jan 8, 2019, 6:01:40 PM)
+[2019.01.09-06.01.40:998][986]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-06.01.41:011][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013257s)
+[2019.01.09-06.01.41:011][986]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-06.01.41:012][986]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2019.01.09-06.01.41:012][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014050s)
+[2019.01.09-06.01.41:138][986]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-06.01.41:214][986]LogInit: FAudioDevice initialized.
+[2019.01.09-06.01.41:242][986]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-06.01.41:243][986]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.01.41:244][986]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.09-00.01.41
+[2019.01.09-06.01.41:245][986]LogWorld: Bringing up level for play took: 0.002761
+[2019.01.09-06.01.41:258][986]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.71
+[2019.01.09-06.01.41:265][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.01.43:183][115]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.01.43:184][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.01.43:231][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-06.01.43:231][115]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.01.43:261][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.01.43:310][116]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.01.09-06.02.52:979][229]BlueprintLog: New page: Compile Chair2
+[2019.01.09-06.02.53:779][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/Chair2" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Chair2.uasset" SILENT=true
+[2019.01.09-06.02.53:804][258]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/Chair2C84CA0604B80853236562CA95851D715.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Chair2.uasset'
+[2019.01.09-06.02.55:165][331]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2019.01.09-06.03.10:243][240]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2019.01.09-06.03.16:810][638]BlueprintLog: New page: Compile Chair2
+[2019.01.09-06.03.17:549][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/Chair2" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Chair2.uasset" SILENT=true
+[2019.01.09-06.03.17:574][663]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/Chair2CC77475E4714EC1F6765CBBA539649D2.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/Chair2.uasset'
+[2019.01.09-06.03.24:069][115]LogTemp: Repeating last play command: Simulate
+[2019.01.09-06.03.24:088][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.03.24:088][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-06.03.24:088][115]PIE: New page: SIE session: ThirdPersonExampleMap (Jan 8, 2019, 6:03:24 PM)
+[2019.01.09-06.03.24:089][115]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-06.03.24:100][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011105s)
+[2019.01.09-06.03.24:100][115]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-06.03.24:101][115]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2019.01.09-06.03.24:101][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012163s)
+[2019.01.09-06.03.24:225][115]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-06.03.24:298][115]LogInit: FAudioDevice initialized.
+[2019.01.09-06.03.24:327][115]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-06.03.24:329][115]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.03.24:330][115]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.09-00.03.24
+[2019.01.09-06.03.24:331][115]LogWorld: Bringing up level for play took: 0.002744
+[2019.01.09-06.03.24:344][115]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.204
+[2019.01.09-06.03.24:347][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.03.26:418][279]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.01.09-06.03.28:648][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.03.28:648][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.03.28:693][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-06.03.28:694][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.03.28:725][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.03.28:792][418]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2019.01.09-06.03.29:911][470]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CustomShit/FlamingChair.FlamingChair
+[2019.01.09-06.03.34:573][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.03.38:735][995]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2019.01.09-06.03.50:889][720]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CustomShit/FlamingChair.FlamingChair
+[2019.01.09-06.03.52:108][785]BlueprintLog: New page: Compile FlamingChair
+[2019.01.09-06.03.52:116][785]LogBlueprint: Error: [Compiler FlamingChair] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2019.01.09-06.03.52:294][785]LogBlueprint: Warning: [Compiler FlamingChair] [3239.74] Compile of FlamingChair failed. 1 Fatal Issue(s) 0 Warning(s) [in 185 ms] (/Game/CustomShit/FlamingChair.FlamingChair)
+[2019.01.09-06.03.52:939][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/FlamingChair" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset" SILENT=true
+[2019.01.09-06.03.52:973][818]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/FlamingChair01C2576F452512C199314BA76BC228A6.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset'
+[2019.01.09-06.04.08:142][851]BlueprintLog: New page: Compile FlamingChair
+[2019.01.09-06.04.08:150][851]LogBlueprint: Error: [Compiler FlamingChair] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2019.01.09-06.04.08:316][851]LogBlueprint: Warning: [Compiler FlamingChair] [3255.76] Compile of FlamingChair failed. 1 Fatal Issue(s) 0 Warning(s) [in 173 ms] (/Game/CustomShit/FlamingChair.FlamingChair)
+[2019.01.09-06.04.08:908][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/FlamingChair" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset" SILENT=true
+[2019.01.09-06.04.08:936][882]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/FlamingChairC71EAC42404B48193E82E7BCB497440D.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset'
+[2019.01.09-06.04.50:863][208]BlueprintLog: New page: Compile FlamingChair
+[2019.01.09-06.04.51:577][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomShit/FlamingChair" FILE="../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset" SILENT=true
+[2019.01.09-06.04.51:603][237]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/FlamingChair2C89A33B4624F4594F3AE8B0AAAF8DA4.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/CustomShit/FlamingChair.uasset'
+[2019.01.09-06.04.53:228][352]LogTemp: Repeating last play command: Simulate
+[2019.01.09-06.04.53:246][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.04.53:247][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-06.04.53:247][352]PIE: New page: SIE session: ThirdPersonExampleMap (Jan 8, 2019, 6:04:53 PM)
+[2019.01.09-06.04.53:247][352]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-06.04.53:259][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011621s)
+[2019.01.09-06.04.53:259][352]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-06.04.53:259][352]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2019.01.09-06.04.53:259][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012343s)
+[2019.01.09-06.04.53:391][352]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-06.04.53:466][352]LogInit: FAudioDevice initialized.
+[2019.01.09-06.04.53:501][352]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-06.04.53:502][352]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.04.53:503][352]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.09-00.04.53
+[2019.01.09-06.04.53:504][352]LogWorld: Bringing up level for play took: 0.002748
+[2019.01.09-06.04.53:517][352]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.969
+[2019.01.09-06.04.53:519][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.04.55:574][466]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.01.09-06.04.58:233][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.04.58:310][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.04.58:310][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.04.58:359][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-06.04.58:360][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.04.58:394][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.04.58:413][639]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2019.01.09-06.05.00:397][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.05.00:397][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-06.05.00:398][763]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 6:05:00 PM)
+[2019.01.09-06.05.00:398][763]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-06.05.00:408][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010522s)
+[2019.01.09-06.05.00:409][763]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-06.05.00:409][763]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2019.01.09-06.05.00:409][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011264s)
+[2019.01.09-06.05.00:534][763]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-06.05.00:610][763]LogInit: FAudioDevice initialized.
+[2019.01.09-06.05.00:641][763]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-06.05.00:642][763]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.05.00:643][763]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.09-00.05.00
+[2019.01.09-06.05.00:644][763]LogWorld: Bringing up level for play took: 0.002633
+[2019.01.09-06.05.00:657][763]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.11
+[2019.01.09-06.05.00:657][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.05.02:699][918]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.01.09-06.05.35:870][679]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.05.35:871][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.05.35:916][679]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-06.05.35:917][679]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.05.35:953][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.05.35:994][680]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2019.01.09-06.05.37:852][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.06.02:250][747]LogEditorViewport: Clicking on Actor (LMB): Chair2_C (Chair2)
+[2019.01.09-06.06.10:940][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.06.22:206][124]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-06.06.22:226][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.06.22:226][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-06.06.22:226][124]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 6:06:22 PM)
+[2019.01.09-06.06.22:226][124]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-06.06.22:238][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012263s)
+[2019.01.09-06.06.22:239][124]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-06.06.22:239][124]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2019.01.09-06.06.22:239][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013104s)
+[2019.01.09-06.06.22:371][124]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-06.06.22:444][124]LogInit: FAudioDevice initialized.
+[2019.01.09-06.06.22:474][124]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-06.06.22:475][124]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.06.22:476][124]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.09-00.06.22
+[2019.01.09-06.06.22:477][124]LogWorld: Bringing up level for play took: 0.002765
+[2019.01.09-06.06.22:490][124]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.058
+[2019.01.09-06.06.22:490][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.06.24:549][283]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.01.09-06.06.44:458][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.06.44:459][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.06.44:504][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-06.06.44:505][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.06.44:542][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.06.44:584][960]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2019.01.09-06.06.46:934][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.06.52:924][465]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ParagonWraith/Characters/Heroes/Wraith/WraithPlayerCharacter.WraithPlayerCharacter
+[2019.01.09-06.06.53:193][465]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.12:355][728]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/WraithPlayerCharacter8FF98E774FE211378EFBA5B2AFF7EA98.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ParagonWraith/Characters/Heroes/Wraith/WraithPlayerCharacter.uasset'
+[2019.01.09-06.07.13:003][771]BlueprintLog: New page: Compile WraithPlayerCharacter
+[2019.01.09-06.07.13:055][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:057][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:058][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:059][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:060][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:061][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:233][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:234][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:235][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:235][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:251][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:252][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:253][771]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.13:917][797]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/WraithPlayerCharacterAE7DC1454958367791922FB91E81479D.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ParagonWraith/Characters/Heroes/Wraith/WraithPlayerCharacter.uasset'
+[2019.01.09-06.07.14:733][851]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-06.07.14:765][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.07.14:765][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-06.07.14:765][851]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 6:07:14 PM)
+[2019.01.09-06.07.14:765][851]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-06.07.14:776][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010771s)
+[2019.01.09-06.07.14:776][851]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-06.07.14:776][851]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2019.01.09-06.07.14:776][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011476s)
+[2019.01.09-06.07.14:907][851]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-06.07.14:980][851]LogInit: FAudioDevice initialized.
+[2019.01.09-06.07.15:012][851]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-06.07.15:013][851]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.07.15:014][851]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.09-00.07.15
+[2019.01.09-06.07.15:015][851]LogWorld: Bringing up level for play took: 0.002631
+[2019.01.09-06.07.15:028][851]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.48
+[2019.01.09-06.07.15:028][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.07.34:755][373]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.07.34:755][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.07.34:805][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-06.07.34:806][373]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.07.34:841][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.07.34:947][374]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2019.01.09-06.07.37:048][525]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-06.07.37:365][525]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/ThirdPersonExampleMapCEC5B17F43F2B80BF4B79FAF032B7CA0.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.09-06.07.37:807][525]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/ThirdPersonExampleMap_BuiltData4279C93E4E0C66EED789CDB3AD901722.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.09-06.08.21:469][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.08.24:586][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.08.24:642][239]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-06.08.24:662][239]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.08.24:662][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-06.08.24:662][239]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 6:08:24 PM)
+[2019.01.09-06.08.24:662][239]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-06.08.24:674][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011965s)
+[2019.01.09-06.08.24:675][239]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-06.08.24:675][239]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2019.01.09-06.08.24:675][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012934s)
+[2019.01.09-06.08.24:804][239]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-06.08.24:876][239]LogInit: FAudioDevice initialized.
+[2019.01.09-06.08.24:906][239]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-06.08.24:907][239]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.08.24:908][239]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.09-00.08.24
+[2019.01.09-06.08.24:909][239]LogWorld: Bringing up level for play took: 0.003144
+[2019.01.09-06.08.24:922][239]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.374
+[2019.01.09-06.08.24:922][239]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.08.26:983][390]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.01.09-06.08.27:243][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.08.27:244][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.08.27:297][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-06.08.27:298][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.08.27:333][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.08.27:399][412]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2019.01.09-06.08.31:682][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.08.54:730][ 37]LogEditorViewport: Clicking on Actor (LMB): Chair2_C (Chair2)
+[2019.01.09-06.09.00:354][381]LogEditorViewport: Clicking on Actor (LMB): FlamingChair_C (FlamingChair)
+[2019.01.09-06.09.26:275][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.09.29:678][ 45]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/ThirdPersonExampleMap8B97DEF24DA2A492AF6F7C96960470F1.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.09-06.09.30:109][ 45]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/ThirdPersonExampleMap_BuiltData6E676A2640C8EE04A4C10488797A1B59.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.09-06.09.31:030][ 95]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-06.09.31:048][ 95]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.09.31:048][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-06.09.31:048][ 95]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 8, 2019, 6:09:31 PM)
+[2019.01.09-06.09.31:048][ 95]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.09-06.09.31:059][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011352s)
+[2019.01.09-06.09.31:060][ 95]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.09-06.09.31:060][ 95]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2019.01.09-06.09.31:060][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012125s)
+[2019.01.09-06.09.31:194][ 95]LogInit: XAudio2 using 'Speakers (STRIX RAID DLX)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.01.09-06.09.31:267][ 95]LogInit: FAudioDevice initialized.
+[2019.01.09-06.09.31:312][ 95]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.09-06.09.31:313][ 95]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.09.31:314][ 95]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.09-00.09.31
+[2019.01.09-06.09.31:315][ 95]LogWorld: Bringing up level for play took: 0.002835
+[2019.01.09-06.09.31:328][ 95]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.78
+[2019.01.09-06.09.31:328][ 95]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.09.33:369][250]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.01.09-06.09.33:685][275]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.09.33:685][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.09.33:733][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-06.09.33:734][275]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.09-06.09.33:773][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-06.09.33:841][276]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2019.01.09-06.09.38:182][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.09.41:576][720]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.09-06.09.42:120][749]LogSlate: Window 'WraithPlayerCharacter' being destroyed
+[2019.01.09-06.09.42:135][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.09-06.09.45:703][926]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.09-06.09.46:342][926]SourceControl: rm 'Test/Content/CustomShit/Chair2.uasset'
+[2019.01.09-06.10.13:795][671]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CustomShit/FlamingChair.FlamingChair
+[2019.01.09-06.10.39:285][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-06.10.40:430][265]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ParagonWraith/Characters/Heroes/Wraith/WraithPlayerCharacter.WraithPlayerCharacter
+[2019.01.09-06.10.40:694][265]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2019.01.09-06.11.03:710][856]LogSavePackage: Moving '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Saved/WraithPlayerCharacter0FB87C244BAF683741EB9B94DF08B34C.tmp' to '../../../../../../Users/tsmat/Desktop/Repo/Test/Test/Content/ParagonWraith/Characters/Heroes/Wraith/WraithPlayerCharacter.uasset'
